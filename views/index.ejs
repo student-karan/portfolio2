@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP CRUD</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <table>
+        <caption>CRUD Operations</caption>
+        <thead>
+            <tr>
+                <th scope="col">S.no'</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Mobile</th>
+                <th scope="col">Operations</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% for( let post of posts){ %>
+            <tr>
+                <td scope="row"><%= post.s_no %></td>
+                <td scope="row"><%= post.name %></td>
+                <td scope="row"><%= post.email %></td>
+                <td scope="row"><%= post.mobile %></td>
+                <td scope="row" class="operations"> <a href="http://localhost:8080/posts/<%= post.password %>/edit"><button class="update">Update</button></a>
+                    <form action="/posts/<%=post.password%>?_method=DELETE" method="post">
+                        <button class="delete">Delete</button>
+                        </form> 
+                    </td>
+            </tr>
+            <% }  %>
+        </tbody>
+    </table>
+  <br>
+  <br>
+  <a href="http://localhost:8080/posts/new"><button class="newuser">Add User</button></a>
+</body>
+</html>

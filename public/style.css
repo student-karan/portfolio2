@@ -1,0 +1,44 @@
+table{
+    margin: auto;
+    top: 0px;
+    position: relative;
+}
+caption {
+    caption-side: top;
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+    font-style: oblique;
+}
+thead,tfoot {
+    background-color: rgb(228 240 245);
+}
+th,td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.operations{
+    display: flex;
+    gap: 0.5rem;
+}
+button{
+    background-color: rgb(20, 87, 212);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.update{
+    display: inline-block;
+}
+.delete{
+    background-color: rgb(221, 52, 52);
+    display: inline-block;
+}
+.newuser{
+    margin-left: 7rem;
+}
+
