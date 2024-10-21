@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(190, 129, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+header{
+    height: 10vh;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2rem;
+    font-style: oblique;
+    font-weight: 600;
+    margin-top: 3vh;
+}
+.container{
+    background-color: #fff0d1;
+    min-height: 50vh;
+    max-width: 20rem;
+    margin: auto;
+    padding: 1.5rem;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+form{
+    margin: 1rem 0 1rem 0;
+}
+form p{
+    font-size: 2rem;
+    font-style: oblique;
+    font-weight: 500;
+}
+form select,input,button{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+form .dropdown{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+form .select{
+    max-width: 7rem;
+    margin-top: 2rem;
+    display: flex;
+    border: 3px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+form .select:focus-within{
+    border-color: #0056b3;
+}
+form select{
+    background-color: #fff0d1;
+}
+form img{
+    max-width: 3rem;
+}
+form input{
+    background-color: #fff0d1;
+    font-size: 1.5rem;
+    margin-top: 5vh;
+}
+form i{
+    margin-top: 17vh;
+    font-size: 1.5rem;
+}
+form button{
+    background-color: rgb(190, 129, 48);
+    height: 3rem;
+    width: 15rem;
+    margin-top: 10vh;
+    margin-left: 2.5rem;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-style: oblique;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
