@@ -38,6 +38,17 @@ a{
 a:hover{
     box-shadow: 0px 5px 4px white;
 }
+.goback {
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(92, 23, 138);
+    background-color: white;
+    transform: rotate(180deg);
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 70px;
+
+}
 main .aboutus{
     box-shadow: -3px -3px 5px red;
     color: rgb(92, 23, 138);

@@ -18,6 +18,17 @@ header{
     font-weight: 600;
     margin-top: 3vh;
 }
+.goback{
+    font-size: 2rem;
+    text-decoration: none;
+    color:#fff0d1 ;
+    background-color: rgb(190, 129, 48);
+    transform: rotate(180deg);
+    padding: 10px;
+    border-radius: 50%;
+    text-align: left;
+    margin-left: 10px;
+}
 .container{
     background-color: #fff0d1;
     min-height: 50vh;

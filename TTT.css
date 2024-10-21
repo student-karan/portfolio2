@@ -1,25 +1,43 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     background-color: #548687;
-    text-align: center;
 }
-.heading{
+
+header {
     font-size: 2rem;
     padding-top: 5px;
     background-color: brown;
     color: white;
     text-decoration: underline;
+    text-align: center;
 }
-.container{
+
+.goback {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #548687;
+    background-color: brown;
+    transform: rotate(180deg);
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: 10px;
+
+}
+
+.container {
     height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.game{
+
+.game {
     height: 60vmin;
     width: 60vmin;
     display: flex;
@@ -28,9 +46,10 @@ body{
     align-items: center;
     margin-top: 5vh;
     gap: 1vmin;
-   
+
 }
-.box{
+
+.box {
     height: 18vmin;
     width: 18vmin;
     border: 5px solid black;
@@ -40,10 +59,12 @@ body{
     cursor: pointer;
     background-color: #ffffc7;
 }
-.box:hover{
+
+.box:hover {
     opacity: 0.5;
 }
-.result{
+
+.result {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -51,17 +72,20 @@ body{
     gap: 1rem;
 
 }
-#reset{
+
+#reset {
     padding: 1rem;
     border: 5px solid black;
     border-radius: 1rem;
     font-size: 1.5rem;
     cursor: pointer;
 }
-#reset:hover{
+
+#reset:hover {
     opacity: 0.5;
 }
-#update{
+
+#update {
     padding: 1rem;
     border: 5px solid black;
     font-weight: 600;
@@ -69,17 +93,19 @@ body{
     background-color: #ffffc7;
 
 }
-.newGame{
+
+.newGame {
     padding: 1rem;
     border: 5px solid black;
     border-radius: 1rem;
     font-size: 1.5rem;
     cursor: pointer;
 }
-.newGame:hover{
+
+.newGame:hover {
     opacity: 0.5;
 }
-.hide{
-    display: none;
 
+.hide {
+    display: none;
 }

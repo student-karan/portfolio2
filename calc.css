@@ -5,12 +5,23 @@
     box-sizing: border-box;
 }
 body{
-    text-align: center;
     background: #e3f9ff;
 }
 header{
+    text-align: center;
     font-size: 8vmin;
     padding: 2vmin;
+}
+.goback{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #e3f9ff;
+    background-color: black;
+    transform: rotate(180deg);
+    padding: 10px;
+    border-radius: 50%;
+    text-align: left;
+    margin-left: 10px;
 }
 .container{
     display: flex;
